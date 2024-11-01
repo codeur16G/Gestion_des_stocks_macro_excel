@@ -17,7 +17,7 @@ L'application est organisée en quatre feuilles principales :
 
 ### 1. Feuille **Opérations**
    - Permet d'**initialiser l'application** en ajoutant les informations de toutes les marchandises présentes dans le stock.
-   - Saisie initiale des détails des marchandises, tels que le nom, la catégorie, et les caractéristiques spécifiques.
+   - Saisie initiale des détails des marchandises, tels que la référence, le prix unitaire, la date, et la quantité car la catégorie, la désignation(le nom) et l'unité sont chargé automatiquement après la saise de la référence.
    - Mise en place des informations de base pour une gestion simplifiée dans les feuilles suivantes.
 
 ### 2. Feuille **Marchandises**
