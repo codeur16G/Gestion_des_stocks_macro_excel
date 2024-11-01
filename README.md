@@ -48,7 +48,8 @@ L'application est organisée en quatre feuilles principales :
 
 ## Aperçu de l'Application
 
-> Ajoute ici des captures d'écran pour montrer chaque feuille (Opérations, Marchandises, Inventaire) et les principales informations affichées.
+![image](https://github.com/user-attachments/assets/93808387-1300-458c-874c-590a8cc007fe)
+
 
 ## Technologies Utilisées
 
