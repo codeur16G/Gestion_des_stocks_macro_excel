@@ -48,7 +48,11 @@ L'application est organisée en quatre feuilles principales :
 
 ## Aperçu de l'Application
 
-![image](https://github.com/user-attachments/assets/93808387-1300-458c-874c-590a8cc007fe)
+![image](https://github.com/user-attachments/assets/7179a3ef-0847-4ff1-a099-e8f280f8df3c)
+![image](https://github.com/user-attachments/assets/76bb1666-47fb-46b1-b32c-03f6a344385f)
+![image](https://github.com/user-attachments/assets/148aba67-eec2-433c-86e8-80d866fe34c5)
+![image](https://github.com/user-attachments/assets/1c4da366-0f14-47b4-8855-a30dac6e87ce)
+![image](https://github.com/user-attachments/assets/ef9d65e2-b5ec-4051-b357-13a9bbc887ea)
 
 
 ## Technologies Utilisées
