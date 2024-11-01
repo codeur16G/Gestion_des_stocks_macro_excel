@@ -23,7 +23,7 @@ L'application est organisée en quatre feuilles principales :
 ### 2. Feuille **Marchandises**
    - Permet d'ajouter les informations pour chaque opération d'**entrée** ou de **sortie** de marchandises.
    - Si une marchandise est nouvelle (non présente dans le stock), ses informations de base doivent être saisies ici pour être enregistrées dans l'inventaire.
-   - Les données sont automatiquement enregistrées dans la feuille **Entrées** ou **Sorties** selon l'opération sélectionnée.
+   - Les données sont automatiquement enregistrées dans la feuille **Entrées** ou **Sorties** selon l'opération sélectionnée depuis la feuille **Opérations**.
 
 ### 3. Feuilles **Entrées** et **Sorties**
    - Enregistre toutes les opérations d'entrées et de sorties pour un suivi détaillé.
