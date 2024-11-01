@@ -16,13 +16,13 @@ L'application est organisée en quatre feuilles principales :
 ## Fonctionnalités
 
 ### 1. Feuille **Opérations**
-   - Permet d'**initialiser l'application** en ajoutant les informations de toutes les marchandises présentes dans le stock.
-   - Saisie initiale des détails des marchandises, tels que la référence, le prix unitaire, la date, et la quantité car la catégorie, la désignation(le nom) et l'unité sont chargé automatiquement après la saise de la référence.
-   - Mise en place des informations de base pour une gestion simplifiée dans les feuilles suivantes.
+   - Permet d'**initialiser l'application** en ajoutant les informations de toutes les marchandises de base déjà présentes dans le stock.
+   - Saisie initiale des détails des marchandises, tels que la référence, le prix unitaire, la date et la quantité.
+   - La catégorie, la désignation (nom) et l'unité sont automatiquement chargées depuis la feuille Marchandises après la saisie de la référence.
 
 ### 2. Feuille **Marchandises**
    - Permet d'ajouter les informations pour chaque opération d'**entrée** ou de **sortie** de marchandises.
-   - Enregistre les détails de l'opération selon qu'il s'agit d'une entrée ou d'une sortie.
+   - Si une marchandise est nouvelle (non présente dans le stock), ses informations de base doivent être saisies ici pour être enregistrées dans l'inventaire.
    - Les données sont automatiquement enregistrées dans la feuille **Entrées** ou **Sorties** selon l'opération sélectionnée.
 
 ### 3. Feuilles **Entrées** et **Sorties**
@@ -40,9 +40,9 @@ L'application est organisée en quatre feuilles principales :
 
 ## Utilisation
 
-1. **Initialisation** : Rendez-vous sur la feuille **Opérations** pour ajouter toutes les marchandises de base présentes dans le stock.
+1. **Initialisation** : Rendez-vous sur la feuille **Marchandises** pour ajouter toutes les marchandises qui doivent être présentes dans le stock.
 2. **Opérations de Stock** :
-   - Pour chaque ajout ou retrait de marchandises, utilisez la feuille **Marchandises** pour saisir les informations de l'opération.
+   - Pour chaque entrée ou sorties de marchandises, utilisez la feuille **Opérations** pour saisir les informations de l'opération.
    - Sélectionnez le type d'opération (Entrée ou Sortie), et les données seront automatiquement enregistrées dans la feuille appropriée.
 3. **Suivi de l'Inventaire** : La feuille **Inventaire** affiche le statut des stocks en temps réel avec les mises à jour de chaque opération. Un message d'avertissement est visible si une marchandise a un stock bas.
 
@@ -54,13 +54,13 @@ L'application est organisée en quatre feuilles principales :
 
 - **Microsoft Excel** pour la gestion des données, l'automatisation de calculs et la création de tableaux et graphiques.
 - **Formules Excel** avancées pour les calculs automatiques des stocks, valeurs et alertes.
-- **VBA (Visual Basic for Applications)** pour automatiser certaines opérations (si nécessaire).
+- **Macros Excel** pour automatiser certaines actions, telles que l'enregistrement des opérations dans les feuilles correspondantes.
 
 ## Installation et Configuration
 
 1. Téléchargez le fichier Excel depuis ce dépôt.
 2. Ouvrez le fichier dans Microsoft Excel.
-3. Suivez les étapes d'initialisation dans la feuille **Opérations** pour commencer.
+3. Suivez les étapes d'initialisation dans la feuille **Marchandises** pour commencer.
 
 ## Améliorations Futures
 
