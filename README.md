@@ -8,8 +8,8 @@ Cette application Excel de gestion des stocks est conçue pour faciliter le suiv
 
 L'application est organisée en quatre feuilles principales : 
 
-1. **Opérations** : Sert de point de départ pour l'ajout de nouvelles marchandises dans le stock.
-2. **Marchandises** : Permet de gérer chaque opération d'entrée ou de sortie en enregistrant les informations dans les feuilles correspondantes.
+1. **Opérations** : Permet de gérer chaque opération d'entrée ou de sortie en enregistrant les informations dans les feuilles correspondantes.
+2. **Marchandises** : Sert de point de départ pour l'ajout de nouvelles marchandises dans le stock. 
 3. **Entrées** et **Sorties** : Enregistre respectivement toutes les opérations d'entrées et de sorties de marchandises.
 4. **Inventaire** : Fournit un état récapitulatif des marchandises en stock, avec des informations sur la quantité en stock, la valeur totale et un message d'avertissement si le stock est bas.
 
